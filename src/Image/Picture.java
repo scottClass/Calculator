@@ -14,7 +14,7 @@ public class Picture {
     String path;
     
     public Picture() {
-        path = "C:\\Users\\Scott\\Downloads\\John Cena.jpg";
+        path = "John Cena.jpg";
     }
     
     public String getImagepath() {
