@@ -19,7 +19,6 @@ public class Calculator extends javax.swing.JFrame {
     public String answer;
     public int num1;
     public int num2;
-    public int presses = 0;
     Picture picture;
     ImageIcon image;
     JLabel imageLabel;
@@ -157,7 +156,6 @@ public class Calculator extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        presses++;
         answer = 0 + "";
         action = jComboBox1.getSelectedItem().toString();
         if (!jTextField1.getText().trim().isEmpty()) {
